@@ -28,3 +28,122 @@
   height: 100%;
   object-fit: cover;
 }
+
+
+
+.DarkMode {
+  background-color: black;
+  color: white;
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: white;
+  }
+  ul {
+    color: white;
+    li {
+      color: white;
+    }
+  }
+
+}
+
+.DarkMode #listed {
+  background: black;
+  color: #fff;
+}
+
+.DarkMode #listed h2,
+.DarkMode #listed button,
+.DarkMode #listed h3,
+.DarkMode #listed h3 span,
+.DarkMode #listed .text-\[\#1A1A1A\],
+.DarkMode #listed .text-\[\#6B7280\],
+.DarkMode #listed .text-\[\#383838\],
+.DarkMode #listed .text-\[\#45525e\] {
+  color: #fff !important;
+}
+.DarkMode #listed .bg-white {
+  background: #1a1a1a !important;
+}
+.DarkMode #listed .hover\:bg-\[\#F7F7F7\]:hover {
+  background: #2a2a2a !important;
+}
+.DarkMode #listed .divide-black\/5 {
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
+.DarkMode #agents { color: #fff; }
+.DarkMode #agents h3 { color: #fff; }              
+.DarkMode #agents .text-\[\#111827\] {               
+  color: #fff !important;
+}
+.DarkMode #agents .bg-gray-900 {
+  background: rgba(255,255,255,.12) !important;
+}
+.DarkMode #agents .bg-white { 
+  background: #1a1a1a !important;
+}
+
+
+
+
+.DarkMode #check { color: #fff; }
+
+.DarkMode #check .bg-\[\#F1F0F8\] {
+  background: #111 !important; 
+}
+
+.DarkMode #check .text-\[\#1a1a1a\] {
+  color: #fff !important;   
+}
+.DarkMode #check .bg-white {
+  background: #1a1a1a !important;
+}
+
+
+
+.DarkMode #market { color: #fff; }
+.DarkMode #market h2,
+.DarkMode #market h3,
+.DarkMode #market .text-\[\#1A1A1A\],
+.DarkMode #market .text-\[\#383838\] {
+  color: #fff !important;
+}arket .tabs ul {
+  background: #15161b;
+  border-color: rgba(255,255,255,0.12);
+}
+.DarkMode #market .tabs li {
+  color: #c7c9d1 !important;
+}
+.DarkMode #market .tabs .bg-\[\#F7F7F7\] {
+  background: #1f2129 !important;
+  color: #9ca3af !important;
+}
+.DarkMode #market .inp { background: #15161b !important; }
+.DarkMode #market .inp input {
+  background: #232530 !important;
+  color: #e5e7eb !important;
+}
+.DarkMode #market .inp input::placeholder { color: #9aa0a6 !important; }
+
+.DarkMode #market .font-raleway,
+.DarkMode #market .font-roboto {
+  color: #e5e7eb !important;
+}
+.DarkMode #market svg [stroke="#383838"] { stroke: #d1d5db !important; }
+.DarkMode #market svg [fill="#383838"]   { fill: #d1d5db !important; }
+
+.DarkMode #market .bg-\[\#ffffff57\] {
+  background: rgba(20,22,27,.45) !important;
+  backdrop-filter: blur(20px);
+}
+
+
+.DarkMode #market .bg-\[\#fff\],
+.DarkMode #market .bg-white {
+  background: #1a1a1a !important;
+}
+
+

@@ -11,5 +11,8 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
-
-  
+  const DARK = document.querySelector("#DarkMode");
+  DARK.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.body.classList.toggle("DarkMode");
+  });
